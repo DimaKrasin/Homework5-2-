@@ -55,7 +55,7 @@ public class Maine extends Application{
                         switch(newVal){
                             case "player1":
                                 player1 player1 = new player1(1);
-                                player1.show(myStage,song);
+                                player1.show(myStage,song,songs);
                                 break;
                             case "player2":
                                 player2 player2 = new player2(2);
